@@ -42,6 +42,9 @@ TARGET_KERNEL_SOURCE := kernel/samsung/sltecan
 # Audio
 BOARD_USES_ALSA_AUDIO := true
 
+# ANT+
+BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
+
 # Bluetooth
 BOARD_BLUEDROID_VENDOR_CONF := $(LOCAL_PATH)/bluetooth/vnd_sltecan.txt
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
