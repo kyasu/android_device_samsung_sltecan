@@ -5,14 +5,22 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
-    af.fast_track_multiplier=1 \
-    audio.offload.video=true \
     persist.audio.fluence.speaker=true \
     persist.audio.fluence.voicecall=true \
     persist.audio.fluence.voicerec=false \
     ro.qc.sdk.audio.fluencetype=fluence \
-    use.voice.path.for.pcm.voip=false \
+    mm.enable.smoothstreaming=true \
+    av.offload.enable=true \
+    av.streaming.offload.enable=true \
+    media.aac_51_output_enabled=true \
+    media.aaccodectype=1 \
     use.dedicated.device.for.voip=true \
+    tunnel.audio.encode=true \
+    audio.offload.buffer.size.kb=32 \
+    audio.offload.gapless.enabled=true \
+    audio.offload.multiple.enabled=false \
+    audio.offload.pcm.16bit.enable=true \
+    audio.offload.pcm.24bit.enable=true \
     audio.deep_buffer.media=true
 
 # Camera
