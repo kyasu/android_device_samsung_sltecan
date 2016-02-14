@@ -60,7 +60,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.jbims=1 \
     persist.eons.enabled=true \
     persist.data.qmi.adb_logmask=0 \
-    ro.telephony.ril_class=SlteRIL \
+    ro.telephony.ril_class=SamsungQcomRIL \
     ro.telephony.default_network=9 \
     telephony.lteOnGsmDevice=1
 
