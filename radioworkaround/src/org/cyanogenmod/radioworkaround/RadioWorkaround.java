@@ -81,7 +81,7 @@ public class RadioWorkaround extends Activity {
 
         try {
             final String prop = getSystemProperties("persist.radio.workaround",
-                                                    "true");
+                                                    "false");
 
             Log.d(LOG_TAG, "try to off-on Radio (" + prop + ")");
 
