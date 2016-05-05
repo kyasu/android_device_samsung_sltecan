@@ -121,10 +121,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     $(LOCAL_PATH)/configs/nfcee_access.xml:system/etc/nfcee_access.xml
 
-# Radio
-PRODUCT_PACKAGES += \
-    libril_shim
-
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
