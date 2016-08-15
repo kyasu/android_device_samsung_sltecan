@@ -201,8 +201,12 @@ etc/firmware/a330_pfp.fw
 etc/firmware/a330_pm4.fw
 
 # GPS (KitKat)
+lib/libgps.utils.so
 lib/libloc_api_v02.so
+lib/libloc_core.so
+lib/libloc_eng.so
 lib/hw/flp.default.so
+lib/hw/gps.default.so
 vendor/lib/libgeofence.so
 vendor/lib/libizat_core.so
 vendor/lib/liblbs_core.so
