@@ -15,9 +15,7 @@
 # inherit from common msm8974
 -include device/samsung/msm8974-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/samsung/sltecan
-
-TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
+TARGET_SPECIFIC_HEADER_PATH := device/samsung/sltecan/include
 
 TARGET_OTA_ASSERT_DEVICE := sltecan,slteatt,SM-G850W,SM-G850A
 
@@ -47,8 +45,8 @@ USE_CUSTOM_AUDIO_POLICY := 1
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
 # Bluetooth
-BOARD_BLUEDROID_VENDOR_CONF := $(LOCAL_PATH)/bluetooth/vnd_sltecan.txt
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
+BOARD_BLUEDROID_VENDOR_CONF := device/samsung/sltecan/bluetooth/vnd_sltecan.txt
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/sltecan/bluetooth
 BOARD_BLUETOOTH_USES_HCIATTACH_PROPERTY := false
 BOARD_HAVE_BLUETOOTH_BCM := true
 
@@ -58,7 +56,7 @@ TARGET_PROVIDES_CAMERA_HAL := true
 COMMON_GLOBAL_CFLAGS += -DCAMERA_VENDOR_L_COMPAT
 
 # CMHW
-BOARD_HARDWARE_CLASS += $(LOCAL_PATH)/cmhw
+BOARD_HARDWARE_CLASS += device/samsung/sltecan/cmhw
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
@@ -76,7 +74,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 27861676032 # 27861692416 - 16384
 BOARD_CACHEIMAGE_PARTITION_SIZE := 524288000
 
 # Power HAL
-TARGET_POWERHAL_SET_INTERACTIVE_EXT := $(LOCAL_PATH)/power/power_ext.c
+TARGET_POWERHAL_SET_INTERACTIVE_EXT := device/samsung/sltecan/power/power_ext.c
 TARGET_POWERHAL_VARIANT := qcom
 
 # Radio
@@ -85,7 +83,7 @@ BOARD_RIL_CLASS := ../../../device/samsung/sltecan/ril
 #RECOVERY_VARIANT := twrp
 # Recovery
 ifneq ($(RECOVERY_VARIANT),twrp)
-TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB := device/samsung/sltecan/rootdir/etc/fstab.qcom
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/sltecan/recovery/recovery_keys.c
 endif
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
@@ -104,7 +102,7 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.allow.mock.location=1 \
     ro.debuggable=1 \
     persist.sys.usb.config=adb
-TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.twrp
+TARGET_RECOVERY_FSTAB := device/samsung/sltecan/rootdir/etc/fstab.twrp
 DEVICE_RESOLUTION := 720x1280
 BOARD_HAS_NO_REAL_SDCARD := true
 RECOVERY_SDCARD_ON_DATA := true
