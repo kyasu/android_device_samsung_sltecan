@@ -242,7 +242,7 @@ vendor/lib/libdisp-aba.so
 -vendor/lib/libmm-abl.so
 vendor/lib/libmm-abl-oem.so
 
-# Qualcomm framework (Marshmallow/klte-G900FXXU1CPD2)
+# Qualcomm framework (Marshmallow/klte-G900W8)
 lib/libmdmdetect.so
 vendor/lib/libdiag.so
 vendor/lib/libdsutils.so
@@ -257,7 +257,7 @@ vendor/lib/libqmi_csi.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
 
-# Radio (Marshmallow/klte-G900FXXU1CPD2)
+# Radio (Marshmallow/klte-G900W8)
 bin/efsks
 bin/ks
 bin/netmgrd
