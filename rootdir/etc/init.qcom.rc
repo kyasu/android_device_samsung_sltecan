@@ -45,9 +45,6 @@ on init
     symlink /sdcard /storage/sdcard0
 
 on fs
-    write /sys/devices/msm_sdcc.1/mmc_host/mmc1/power/control on
-    write /sys/devices/msm_sdcc.3/mmc_host/mmc2/power/control on
-
     mount_all fstab.qcom
 
     #### init.target.rc
@@ -234,8 +231,6 @@ on post-fs-data
 
     #### (init.qcom.rc)
 
-    setprop vold.post_fs_data_done 1
-
     #Create a folder for SRS to be able to create a usercfg file
     mkdir /data/data/media 0770 media media
 
@@ -309,6 +304,8 @@ on post-fs-data
     chmod 0775 /efs/.files/.dx1
     chmod 0775 /efs/.files/.dm33
     chmod 0775 /efs/.files/.mp301
+
+    setprop vold.post_fs_data_done 1
 
 on early-boot
     # set RLIMIT_MEMLOCK to 64MB
@@ -1352,7 +1349,7 @@ service fingerprintd /system/bin/fingerprintd
 service qcamerasvr /system/bin/mm-qcamera-daemon
     class main
     user camera
-    group camera system inet input graphics radio sdcard_rw sdcard_r media_rw shell log
+    group camera system inet input graphics net_bt_stack
 
 #start gesture server as daemon
 #service qgesturesvr /system/bin/mm-gesture-daemon
@@ -1389,7 +1386,10 @@ service mpdecision /system/bin/mpdecision --avg_comp
 service thermal-engine /system/bin/thermal-engine
     class main
     user root
-    group radio system
+    socket thermal-send-client stream 0666 system system
+    socket thermal-recv-client stream 0660 system system
+    socket thermal-recv-passive-client stream 0666 system system
+    group root
 
 service time_daemon /system/bin/time_daemon
     class late_start
