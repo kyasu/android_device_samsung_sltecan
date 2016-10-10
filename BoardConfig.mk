@@ -51,9 +51,8 @@ USE_CUSTOM_AUDIO_POLICY := 1
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
 # Bluetooth
-BOARD_BLUEDROID_VENDOR_CONF := device/samsung/sltecan/bluetooth/vnd_sltecan.txt
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/sltecan/bluetooth
-BOARD_BLUETOOTH_USES_HCIATTACH_PROPERTY := false
+BOARD_CUSTOM_BT_CONFIG := device/samsung/sltecan/bluetooth/vnd_sltecan.txt
 BOARD_HAVE_BLUETOOTH_BCM := true
 
 # Camera
