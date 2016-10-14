@@ -132,6 +132,10 @@ endif
 BOARD_SEPOLICY_DIRS += \
     device/samsung/sltecan/sepolicy
 
+# Sensors
+TARGET_NO_SENSOR_PERMISSION_CHECK := true
+BOARD_GLOBAL_CFLAGS += -DCOMPAT_SENSORS_M
+
 # Wifi
 BOARD_HAVE_SAMSUNG_WIFI := true
 BOARD_WLAN_DEVICE := bcmdhd
