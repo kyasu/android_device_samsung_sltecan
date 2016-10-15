@@ -27,6 +27,8 @@ TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
 
 # Build with Clang by default
 USE_CLANG_PLATFORM_BUILD := true
+# Build libc with Gcc
+TARGET_NEEDS_GCC_LIBC := true
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
