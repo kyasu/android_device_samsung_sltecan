@@ -271,6 +271,14 @@
     -->
     <integer name="config_longPressOnHomeBehavior">3</integer>
 
+    <!-- Override the default detection behavior for the framework method
+         android.view.ViewConfiguration#hasPermanentMenuKey().
+         Valid settings are:
+         0 - No change. Use the default autodetection behavior.
+         1 - The device DOES have a permanent menu key; ignore autodetection.
+         2 - The device DOES NOT have a permanent menu key; ignore autodetection. -->
+    <integer name="config_overrideHasPermanentMenuKey">2</integer>
+
     <bool name="config_enableWifiDisplay">true</bool>
 
     <!-- Indicate whether closing the lid causes the device to go to sleep and opening
