@@ -109,6 +109,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_profiles.xml:system/etc/media_profiles.xml
 
 # NFC
+# See external/libnfc-nci/halimpl/pn54x/Android.mk
+NXP_CHIP_TYPE := 1
 PRODUCT_PACKAGES += \
     nfc_nci.pn54x.default \
     com.android.nfc_extras \
