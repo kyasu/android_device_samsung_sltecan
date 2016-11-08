@@ -81,9 +81,9 @@ PRODUCT_PACKAGES += \
 # GPS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/clatd.conf:system/etc/clatd.conf \
-    $(LOCAL_PATH)/configs/flp.conf:/system/etc/flp.conf \
-    $(LOCAL_PATH)/configs/gps.conf:/system/etc/gps.conf \
-    $(LOCAL_PATH)/configs/sap.conf:/system/etc/sap.conf
+    $(LOCAL_PATH)/configs/flp.conf:system/etc/flp.conf \
+    $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf \
+    $(LOCAL_PATH)/configs/sap.conf:system/etc/sap.conf
 
 # Fingerprint
 PRODUCT_PACKAGES += \
@@ -141,12 +141,10 @@ PRODUCT_PACKAGES += \
     macloader
 
 PRODUCT_PACKAGES += \
-    dhcpcd.conf \
     hostapd.accept \
     hostapd.deny \
     hostapd \
-    wpa_supplicant \
-    wpa_supplicant.conf
+    wpa_supplicant
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/cred.conf:system/etc/wifi/cred.conf \
