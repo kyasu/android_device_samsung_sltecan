@@ -28,9 +28,6 @@ TARGET_USE_SDCLANG := true
 #SDCLANG_PATH := prebuilts/clang/linux-x86/host/sdclang-3.8/bin
 #SDCLANG_LTO_DEFS := device/qcom/common/sdllvm-lto-defs.mk
 
-# Build libc with Gcc
-TARGET_NEEDS_GCC_LIBC := true
-
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_CMDLINE := console=null androidboot.hardware=qcom user_debug=23 msm_rtb.filter=0x37 ehci-hcd.park=3
