@@ -22,8 +22,12 @@ TARGET_OTA_ASSERT_DEVICE := sltecan,slteatt,SM-G850W,SM-G850A
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8974
 
-# Build with Clang by default
-USE_CLANG_PLATFORM_BUILD := true
+# Use Snapdragon LLVM if available on build server
+TARGET_USE_SDCLANG := true
+#SDCLANG := true
+#SDCLANG_PATH := prebuilts/clang/linux-x86/host/sdclang-3.8/bin
+#SDCLANG_LTO_DEFS := device/qcom/common/sdllvm-lto-defs.mk
+
 # Build libc with Gcc
 TARGET_NEEDS_GCC_LIBC := true
 
