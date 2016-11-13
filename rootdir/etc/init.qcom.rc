@@ -1509,6 +1509,7 @@ service wpa_supplicant /system/bin/wpa_supplicant \
 service macloader /system/bin/macloader
     class main
     oneshot
+    seclabel u:r:macloader:s0
 
 service ril-daemon /system/bin/rild
     class main
