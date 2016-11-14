@@ -92,7 +92,8 @@ PRODUCT_COPY_FILES += \
 # Fingerprint
 PRODUCT_PACKAGES += \
     fingerprintd \
-    fingerprint.msm8974
+    fingerprint.msm8974 \
+    ValidityService
 
 # IPv6 tethering
 PRODUCT_PACKAGES += \
