@@ -34,6 +34,7 @@ PRODUCT_AAPT_PREBUILT_DPI := xhdpi hdpi mdpi
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
+TARGET_BOOTANIMATION_HALF_RES := true
 
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
