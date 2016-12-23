@@ -71,19 +71,21 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.telephony.mqanelements=6 \
     ro.telephony.ril_class=SamsungQcomRIL \
     ro.telephony.default_network=9 \
-    telephony.lteOnGsmDevice=1
+    telephony.lteOnGsmDevice=1 \
+    ro.telephony.mms_data_profile=5 \
+    ro.telephony.ril.config=newDialCode
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sensors=1
 
-# Tethering
-PRODUCT_PROPERTY_OVERRIDES += \
-    net.tethering.noprovisioning=true
-
 # Storage
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sys.sdcardfs=true
+
+# Tethering
+PRODUCT_PROPERTY_OVERRIDES += \
+    net.tethering.noprovisioning=true
 
 # WiFi
 PRODUCT_PROPERTY_OVERRIDES += \
