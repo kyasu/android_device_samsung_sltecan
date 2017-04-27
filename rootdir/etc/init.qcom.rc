@@ -91,7 +91,8 @@ on post-fs-data
     mkdir /data/misc/bluetooth 0770 bluetooth bluetooth
 
     # Create the directories used by the Wireless subsystem
-    mkdir /data/misc/wifi 0770 wifi system
+    mkdir /data/misc/wifi 0770 wifi wifi
+    chmod 0660 /data/misc/wifi/wpa_supplicant.conf
     mkdir /data/misc/wifi/sockets 0770 wifi wifi
     mkdir /data/misc/wifi/wpa_supplicant 0770 wifi wifi
     mkdir /data/misc/dhcp 0775 dhcp dhcp
@@ -109,6 +110,7 @@ on post-fs-data
     mkdir /efs/wifi 0775 radio system
     chown system wifi /efs/wifi/.mac.info
     chmod 0660 /efs/wifi/.mac.info
+    restorecon /efs/wifi/.mac.info
     chmod 0660 /efs/wifi/.mac.cob
 
     # for WIFI Version
