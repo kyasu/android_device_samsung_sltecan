@@ -397,7 +397,7 @@
 
 	<path name="speaker">
 		<path name="spk" />
-		<ctl name="RX3 Digital Volume" value="84" />
+		<ctl name="RX3 Digital Volume" value="82" />
 		<ctl name="LINEOUT1 Volume" value="16" />
 		<ctl name="LINEOUT3 Volume" value="16" />
 	</path>
@@ -426,28 +426,28 @@
 		<ctl name="HPHR Volume" value="0" />
 		<ctl name="RX1 Digital Volume" value="81" />
 		<ctl name="RX2 Digital Volume" value="81" />
-		<ctl name="RX3 Digital Volume" value="84" />
+		<ctl name="RX3 Digital Volume" value="82" />
 		<ctl name="LINEOUT1 Volume" value="16" />
 		<ctl name="LINEOUT3 Volume" value="16" />
 	</path>
 
 	<path name="speaker-and-hdmi">
 		<path name="spk" />
-		<ctl name="RX3 Digital Volume" value="84" />
+		<ctl name="RX3 Digital Volume" value="82" />
 		<ctl name="LINEOUT1 Volume" value="16" />
 		<ctl name="LINEOUT3 Volume" value="16" />
 	</path>
 
 	<path name="speaker-and-proxy">
 		<path name="spk" />
-		<ctl name="RX3 Digital Volume" value="84" />
+		<ctl name="RX3 Digital Volume" value="82" />
 		<ctl name="LINEOUT1 Volume" value="16" />
 		<ctl name="LINEOUT3 Volume" value="16" />
 	</path>
 
 	<path name="speaker-and-dock">
 		<path name="spk-lineout" />
-		<ctl name="RX3 Digital Volume" value="84" />
+		<ctl name="RX3 Digital Volume" value="82" />
 		<ctl name="RX5 Digital Volume" value="84" />
 		<ctl name="LINEOUT1 Volume" value="16" />
 		<ctl name="LINEOUT2 Volume" value="16" />
@@ -673,7 +673,7 @@
 	<path name="voice-call-speaker">
 		<ctl name="ES705 RX1 Enable" value="1" />
 		<path name="spk" />
-		<ctl name="RX3 Digital Volume" value="84" />
+		<ctl name="RX3 Digital Volume" value="82" />
 		<ctl name="LINEOUT1 Volume" value="20" />
 		<ctl name="LINEOUT3 Volume" value="20" />
 		<ctl name="COMP0 Switch" value="1" />
@@ -682,7 +682,7 @@
 	<path name="voice-call-speaker-extra-vol">
 		<ctl name="ES705 RX1 Enable" value="1" />
 		<path name="spk" />
-		<ctl name="RX3 Digital Volume" value="84" />
+		<ctl name="RX3 Digital Volume" value="82" />
 		<ctl name="LINEOUT1 Volume" value="20" />
 		<ctl name="LINEOUT3 Volume" value="20" />
 	</path>
@@ -713,7 +713,7 @@
 	<path name="voice-call-speaker-emergency">
 		<ctl name="ES705 RX1 Enable" value="1" />
 		<path name="spk" />
-		<ctl name="RX3 Digital Volume" value="84" />
+		<ctl name="RX3 Digital Volume" value="82" />
 		<ctl name="LINEOUT1 Volume" value="16" />
 		<ctl name="LINEOUT3 Volume" value="16" />
 	</path>
@@ -840,14 +840,14 @@
 
 	<path name="video-call-speaker">
 		<path name="spk" />
-		<ctl name="RX3 Digital Volume" value="84" />
+		<ctl name="RX3 Digital Volume" value="82" />
 		<ctl name="LINEOUT1 Volume" value="16" />
 		<ctl name="LINEOUT3 Volume" value="16" />
 	</path>
 
 	<path name="video-call-speaker-extra-vol">
 		<path name="spk" />
-		<ctl name="RX3 Digital Volume" value="84" />
+		<ctl name="RX3 Digital Volume" value="82" />
 		<ctl name="LINEOUT1 Volume" value="16" />
 		<ctl name="LINEOUT3 Volume" value="16" />
 		<ctl name="COMP0 Switch" value="1" />
@@ -955,7 +955,7 @@
 	<path name="VoLTE-voice-speaker">
 		<ctl name="ES705 RX1 Enable" value="1" />
 		<path name="spk" />
-		<ctl name="RX3 Digital Volume" value="84" />
+		<ctl name="RX3 Digital Volume" value="82" />
 		<ctl name="LINEOUT1 Volume" value="16" />
 		<ctl name="LINEOUT3 Volume" value="16" />
 	</path>
@@ -963,7 +963,7 @@
 	<path name="VoLTE-voice-speaker-extra-vol">
 		<ctl name="ES705 RX1 Enable" value="1" />
 		<path name="spk" />
-		<ctl name="RX3 Digital Volume" value="84" />
+		<ctl name="RX3 Digital Volume" value="82" />
 		<ctl name="LINEOUT1 Volume" value="16" />
 		<ctl name="LINEOUT3 Volume" value="16" />
 	</path>
@@ -1066,14 +1066,14 @@
 
 	<path name="VoLTE-video-speaker">
 		<path name="spk" />
-		<ctl name="RX3 Digital Volume" value="84" />
+		<ctl name="RX3 Digital Volume" value="82" />
 		<ctl name="LINEOUT1 Volume" value="16" />
 		<ctl name="LINEOUT3 Volume" value="16" />
 	</path>
 
 	<path name="VoLTE-video-speaker-extra-vol">
 		<path name="spk" />
-		<ctl name="RX3 Digital Volume" value="84" />
+		<ctl name="RX3 Digital Volume" value="82" />
 		<ctl name="LINEOUT1 Volume" value="16" />
 		<ctl name="LINEOUT3 Volume" value="16" />
 		<ctl name="COMP0 Switch" value="1" />
@@ -1234,7 +1234,7 @@
 
 	<path name="voip-speaker-comm">
 		<path name="spk" />
-		<ctl name="RX3 Digital Volume" value="84" />
+		<ctl name="RX3 Digital Volume" value="82" />
 		<ctl name="LINEOUT1 Volume" value="15" />
 		<ctl name="LINEOUT3 Volume" value="15" />
 	</path>
@@ -1256,7 +1256,7 @@
 
 	<path name="voip-speaker-others">
 		<path name="spk" />
-		<ctl name="RX3 Digital Volume" value="84" />
+		<ctl name="RX3 Digital Volume" value="82" />
 		<ctl name="LINEOUT1 Volume" value="16" />
 		<ctl name="LINEOUT3 Volume" value="16" />
 	</path>
@@ -1278,7 +1278,7 @@
 
 	<path name="voip-speaker-chaton">
 		<path name="spk" />
-		<ctl name="RX3 Digital Volume" value="84" />
+		<ctl name="RX3 Digital Volume" value="82" />
 		<ctl name="LINEOUT1 Volume" value="16" />
 		<ctl name="LINEOUT3 Volume" value="16" />
 	</path>
@@ -1299,7 +1299,7 @@
 
 	<path name="voip-speaker-carrier">
 		<path name="spk" />
-		<ctl name="RX3 Digital Volume" value="84" />
+		<ctl name="RX3 Digital Volume" value="82" />
 		<ctl name="LINEOUT1 Volume" value="16" />
 		<ctl name="LINEOUT3 Volume" value="16" />
 	</path>
@@ -1432,7 +1432,7 @@
 
 	<path name="loopback-speaker-DSP">
 		<path name="spk" />
-		<ctl name="RX3 Digital Volume" value="84" />
+		<ctl name="RX3 Digital Volume" value="82" />
 		<ctl name="LINEOUT1 Volume" value="16" />
 		<ctl name="LINEOUT3 Volume" value="16" />
 		<ctl name="COMP0 Switch" value="1" />
@@ -1462,7 +1462,7 @@
 
 	<path name="loopback-speaker">
 		<path name="spk" />
-		<ctl name="RX3 Digital Volume" value="84" />
+		<ctl name="RX3 Digital Volume" value="82" />
 		<ctl name="LINEOUT1 Volume" value="16" />
 		<ctl name="LINEOUT3 Volume" value="16" />
 	</path>
