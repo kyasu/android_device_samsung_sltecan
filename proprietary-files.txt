@@ -253,19 +253,12 @@ vendor/lib/libqmiservices.so
 # Radio (G900W8-MM)
 bin/efsks
 bin/ks
-bin/netmgrd
 bin/qcks
 bin/qmuxd
 bin/rfs_access
-bin/rild
 bin/rmt_storage
-lib/libprotobuf-cpp-full.so
-lib/libreference-ril.so
-lib/libril.so
-lib/libsec-ril.so
-lib/libsecnativefeature.so
-lib/libsecril-client.so
 vendor/lib/libril-qcril-hook-oem.so
+lib/libsec-ril.so:vendor/lib/libsec-ril.so
 
 # Sensors
 etc/sensor_def_qcomdev.conf
