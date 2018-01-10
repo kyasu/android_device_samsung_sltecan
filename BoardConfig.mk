@@ -87,6 +87,9 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_POWERHAL_SET_INTERACTIVE_EXT := device/samsung/sltecan/power/power_ext.c
 TARGET_POWERHAL_VARIANT := qcom
 
+# Properties
+TARGET_SYSTEM_PROP += device/samsung/sltecan/system.prop
+
 # Radio
 BOARD_PROVIDES_LIBRIL := true
 TARGET_RIL_VARIANT := caf
