@@ -108,7 +108,7 @@ TARGET_RIL_VARIANT := caf
 #RECOVERY_VARIANT := twrp
 # Recovery
 ifneq ($(RECOVERY_VARIANT),twrp)
-TARGET_RECOVERY_FSTAB := device/samsung/sltecan/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB := device/samsung/sltecan/rootdir/etc/fstab.full
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/sltecan/recovery/recovery_keys.c
 endif
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
