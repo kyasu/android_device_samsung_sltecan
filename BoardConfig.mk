@@ -20,6 +20,9 @@ TARGET_SPECIFIC_HEADER_PATH := device/samsung/sltecan/include
 
 TARGET_OTA_ASSERT_DEVICE := sltecan,slteatt,SM-G850W,SM-G850A
 
+# ADB Legacy Interface
+TARGET_USES_LEGACY_ADB_INTERFACE := true
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8974
 
