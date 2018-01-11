@@ -1454,14 +1454,14 @@ service rfs_access /system/bin/rfs_access
 #service qmiproxy /system/bin/qmiproxy
 #    class main
 #    user radio
-#    group radio qcom_diag
+#    group radio oem_2950
 #    disabled
 
 # QMUX must be in multiple groups to support external process connections
 service qmuxd /system/bin/qmuxd
     class core
     user radio
-    group radio audio bluetooth gps qcom_diag log
+    group radio audio bluetooth gps oem_2950 log
 
 service sensors /system/bin/sensors.qcom
     class late_start
