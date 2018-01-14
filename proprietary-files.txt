@@ -266,7 +266,7 @@ vendor/lib/librs_adreno_sha1.so|e797997d3ac69dfa87904863672c5b9769c796cc
 
 # Sensors
 etc/sensor_def_qcomdev.conf
-lib/hw/sensors.msm8974.so
+lib/hw/sensors.msm8974.so:vendor/lib/hw/sensors.vendor.msm8974.so
 lib/libinvensense_hal.so
 lib/libmllite.so
 lib/libmplmpu.so
