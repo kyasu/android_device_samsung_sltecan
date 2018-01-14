@@ -86,6 +86,7 @@ BOARD_HARDWARE_CLASS += device/samsung/sltecan/lineagehw
 
 # NFC
 BOARD_NFC_CHIPSET := pn547
+BOARD_NFC_HAL_SUFFIX := msm8974
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
