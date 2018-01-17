@@ -86,6 +86,7 @@ vendor/lib/liboemcamera.so
 vendor/lib/libsensor1.so
 
 # Camera chromatix
+etc/G16QL_s5k2p2xx_module_info.xml
 lib/G16QL_libTsAe.so
 lib/G16QL_libTsAf.so
 lib/G16QL_libTs_J_Accm.so
