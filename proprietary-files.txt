@@ -195,14 +195,17 @@ vendor/lib/libmm-abl-oem.so
 # Qualcomm
 vendor/lib/libxml.so
 
-# Qualcomm framework
+# Qualcomm framework - pinned blobs from G900FXXS1BPCL_G900FOXA1BOJ1_BTU
 lib/libmdmdetect.so
+lib/libperipheral_client.so|7107a8e656fabc5ff6b7a33740be80a1add6abbd
 vendor/lib/libconfigdb.so
 vendor/lib/libdiag.so
+vendor/lib/libdsi_netctrl.so|d5d25fd5b1ea250bdfcb64059eafaf609fe2e32c
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so
 vendor/lib/libnetmgr.so
 vendor/lib/libqcci_legacy.so
+vendor/lib/libqdi.so|6bd79ba4dc4b4af654cda666e829312ba07a22e9
 vendor/lib/libqmi.so
 vendor/lib/libqmi_cci.so
 vendor/lib/libqmi_client_qmux.so
