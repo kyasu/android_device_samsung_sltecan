@@ -69,9 +69,6 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 # Extended Filesystem Support
 TARGET_KERNEL_HAVE_EXFAT := true
 
-# Filesystem
-TARGET_FS_CONFIG_GEN := device/samsung/sltecan/config.fs
-
 # HIDL
 DEVICE_MANIFEST_FILE += device/samsung/sltecan/manifest.xml
 
