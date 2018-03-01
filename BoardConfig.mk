@@ -47,8 +47,6 @@ TARGET_USE_SDCLANG := true
 #SDCLANG_PATH := prebuilts/clang/linux-x86/host/sdclang-3.8/bin
 #SDCLANG_LTO_DEFS := device/qcom/common/sdllvm-lto-defs.mk
 
-# ADB Legacy Interface
-TARGET_USES_LEGACY_ADB_INTERFACE := true
 
 # Audio
 BOARD_HAVE_NEW_QCOM_CSDCLIENT := true
