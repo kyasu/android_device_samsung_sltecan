@@ -143,5 +143,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
     $(LOCAL_PATH)/configs/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf
 
+BOARD_HAS_NO_CONSUMER_IR := true
+
 # common msm8974
 $(call inherit-product, device/samsung/msm8974-common/msm8974.mk)
