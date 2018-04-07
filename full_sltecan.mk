@@ -21,6 +21,6 @@ $(call inherit-product, device/samsung/sltecan/device.mk)
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_sltecan
 PRODUCT_DEVICE := sltecan
+PRODUCT_MODEL := sltecan
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := SM-G850W
