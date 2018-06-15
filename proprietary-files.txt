@@ -66,7 +66,8 @@ vendor/lib/libmmcamera2_companion_s5k2p2xx.so
 vendor/lib/libmmcamera2_companion_imx240.so
 vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libmmcamera2_iface_modules.so
-vendor/lib/libmmcamera2_imglib_modules.so
+# pinned from G900FXXU1CRA2_G900FOXA1CRA2_BTU
+vendor/lib/libmmcamera2_imglib_modules.so|02a24d439d41f3ea30aa38ef98ab9e8dbaa542d3
 vendor/lib/libmmcamera2_isp_modules.so
 vendor/lib/libmmcamera2_pproc_modules.so
 vendor/lib/libmmcamera2_sensor_modules.so
@@ -148,8 +149,8 @@ cameradata/cal_data_LSCmaster.bin:vendor/cameradata/cal_data_LSCmaster.bin
 cameradata/datapattern_420sp.yuv:vendor/cameradata/datapattern_420sp.yuv
 cameradata/datapattern_front_420sp.yuv:vendor/cameradata/datapattern_front_420sp.yuv
 
-# CPU
-bin/mpdecision:vendor/bin/mpdecision
+# CPU - pinned blobs from G900FXXU1CRA2_G900FOXA1CRA2_BTU
+vendor/bin/mpdecision|bf788461981e8b593db5bb224e6e8059ef5adb57
 bin/thermal-engine:vendor/bin/thermal-engine
 vendor/lib/libthermalclient.so
 vendor/lib/libthermalioctl.so
