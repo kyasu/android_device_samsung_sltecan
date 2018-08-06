@@ -121,10 +121,10 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    sensors.msm8974
+    sensors.MSM8974
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/_hals.conf:system/vendor/etc/sensors/_hals.conf
+    $(LOCAL_PATH)/configs/sensors/_hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/_hals.conf
 
 # Thermal
 PRODUCT_COPY_FILES += \
