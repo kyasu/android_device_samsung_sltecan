@@ -381,7 +381,7 @@ int sensors_poll_context_t::inject_sensor_data(struct sensors_poll_device_1 *dev
     int retval = -EINVAL;
     ALOGV("inject_sensor_data");
     // Get handle for the sensor owning the event being injected
-    int local_handle = get_local_handle(data->sensor);
+    //int local_handle = get_local_handle(data->sensor);
     sensors_poll_device_1_t* v1 = this->get_v1_device_by_handle(data->sensor);
     retval = v1->inject_sensor_data(dev, data);
     ALOGV("retval %d", retval);
@@ -406,6 +406,7 @@ static int device__close(struct hw_device_t *dev) {
     if (ctx != NULL) {
         int retval = ctx->close();
         delete ctx;
+        return retval;
     }
     return 0;
 }
@@ -430,6 +431,9 @@ static int device__poll(struct sensors_poll_device_t *dev, sensors_event_t* data
 
 static int device__batch(struct sensors_poll_device_1 *dev, int handle,
         int flags, int64_t period_ns, int64_t timeout) {
+    (void)flags;
+    (void)timeout;
+
     sensors_poll_context_t* ctx = (sensors_poll_context_t*) dev;
 
     ctx->setDelay(handle, period_ns);
@@ -438,6 +442,9 @@ static int device__batch(struct sensors_poll_device_1 *dev, int handle,
 }
 
 static int device__flush(struct sensors_poll_device_1 *dev, int handle) {
+    (void)dev;
+    (void)handle;
+
     return -EINVAL;
 }
 
@@ -449,15 +456,6 @@ static int device__inject_sensor_data(struct sensors_poll_device_1 *dev,
 
 static int open_sensors(const struct hw_module_t* module, const char* name,
         struct hw_device_t** device);
-
-static bool starts_with(const char* s, const char* prefix) {
-    if (s == NULL || prefix == NULL) {
-        return false;
-    }
-    size_t s_size = strlen(s);
-    size_t prefix_size = strlen(prefix);
-    return s_size >= prefix_size && strncmp(s, prefix, prefix_size) == 0;
-}
 
 /*
  * Adds valid paths from the config file to the vector passed in.

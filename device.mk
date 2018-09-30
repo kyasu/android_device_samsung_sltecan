@@ -115,6 +115,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
+    android.hardware.sensors@1.0-impl \
     sensors.MSM8974
 
 PRODUCT_COPY_FILES += \
