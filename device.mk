@@ -92,10 +92,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.0-impl \
     libpn547_fw \
-    nfc_nci.msm8974 \
     com.android.nfc_extras \
     NfcNci \
     Tag
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/nfc/nfc_nci.msm8974.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.msm8974.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfcee_access.xml:system/etc/nfcee_access.xml \
