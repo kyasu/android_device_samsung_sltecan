@@ -63,6 +63,7 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 TARGET_EXFAT_DRIVER := sdfat
 
 # HIDL
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/msm8974-common/manifest.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Legacy BLOB Support
