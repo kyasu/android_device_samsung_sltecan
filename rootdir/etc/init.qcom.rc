@@ -327,8 +327,6 @@ on early-boot
     write /sys/module/subsystem_restart/parameters/enable_debug ${persist.sys.ssr.enable_debug}
 
 on boot
-    mount debugfs /sys/kernel/debug /sys/kernel/debug
-
     #### init.carrier.rc
 
 # permission for Input Device(Touchkey).
