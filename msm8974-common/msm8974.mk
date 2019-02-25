@@ -16,8 +16,9 @@
 COMMON_PATH := device/samsung/msm8974-common
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += device/samsung/msm8974-common/overlay
-DEVICE_PACKAGE_OVERLAYS += device/samsung/msm8974-common/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += \
+    device/samsung/msm8974-common/overlay \
+    device/samsung/msm8974-common/overlay-lineage
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -138,10 +139,10 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_COPY_FILES += \
-    frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml \
-    frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:system/etc/media_codecs_google_telephony.xml \
-    frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml  \
-    device/samsung/msm8974-common/configs/media_codecs.xml:system/etc/media_codecs.xml
+    frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
+    frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_telephony.xml \
+    frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video.xml  \
+    device/samsung/msm8974-common/configs/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml
 
 # OMX
 PRODUCT_PACKAGES += \
