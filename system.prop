@@ -9,10 +9,11 @@ persist.vendor.audio.fluence.voicerec=false
 ro.vendor.audio.sdk.fluencetype=fluence
 vendor.dedicated.device.for.voip=true
 vendor.voice.path.for.pcm.voip=false
-#af.fast_track_multiplier=1
-#vendor.audio_hal.period_size=192
+af.fast_track_multiplier=1
+vendor.audio_hal.period_size=192
 
 # Audio (Media)
+audio.deep_buffer.media=true
 audio.offload.disable=true
 audio.offload.buffer.size.kb=32
 audio.offload.pcm.16bit.enable=true
