@@ -547,13 +547,13 @@
 	<path name="vr-main-mic">
 		<path name="main-mic" />
 		<ctl name="ADC1 Volume" value="17" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="96" />
 	</path>
 
 	<path name="vr-sub-mic">
 		<path name="sub-mic" />
 		<ctl name="ADC3 Volume" value="19" />
-		<ctl name="DEC4 Volume" value="84" />
+		<ctl name="DEC4 Volume" value="96" />
 	</path>
 
 	<path name="vr-headset-mic">
@@ -722,9 +722,9 @@
 		<ctl name="ES705 TX1 Enable" value="1" />
 		<path name="main-sub-mic" />
 		<ctl name="ADC1 Volume" value="14" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="96" />
 		<ctl name="ADC3 Volume" value="14" />
-		<ctl name="DEC4 Volume" value="84" />
+		<ctl name="DEC4 Volume" value="96" />
 		<ctl name="ES705-AP Tx Channels" value="One" />
 		<ctl name="Internal Route Config" value="4" />
 	</path>
@@ -733,9 +733,9 @@
 		<ctl name="ES705 TX1 Enable" value="1" />
 		<path name="sub-main-mic" />
 		<ctl name="ADC3 Volume" value="17" />
-		<ctl name="DEC4 Volume" value="84" />
+		<ctl name="DEC4 Volume" value="96" />
 		<ctl name="ADC1 Volume" value="17" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="96" />
 		<ctl name="ES705-AP Tx Channels" value="One" />
 		<ctl name="Internal Route Config" value="3" />
 	</path>
@@ -743,7 +743,7 @@
 	<path name="voice-call-headphone-mic">
 		<path name="main-mic" />
 		<ctl name="ADC1 Volume" value="14" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="96" />
 	</path>
 
 	<path name="voice-call-headset-mic">
@@ -760,9 +760,9 @@
 		<ctl name="ES705 TX1 Enable" value="1" />
 		<path name="main-sub-mic" />
 		<ctl name="ADC1 Volume" value="14" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="96" />
 		<ctl name="ADC3 Volume" value="14" />
-		<ctl name="DEC4 Volume" value="84" />
+		<ctl name="DEC4 Volume" value="96" />
 		<ctl name="ES705-AP Tx Channels" value="One" />
 		<ctl name="Internal Route Config" value="2" />
 	</path>
@@ -771,9 +771,9 @@
 		<ctl name="ES705 TX1 Enable" value="1" />
 		<path name="sub-main-mic" />
 		<ctl name="ADC3 Volume" value="17" />
-		<ctl name="DEC4 Volume" value="84" />
+		<ctl name="DEC4 Volume" value="96" />
 		<ctl name="ADC1 Volume" value="17" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="96" />
 		<ctl name="ES705-AP Tx Channels" value="One" />
 		<ctl name="Internal Route Config" value="1" />
 	</path>
@@ -782,9 +782,9 @@
 		<ctl name="ES705 TX1 Enable" value="1" />
 		<path name="main-sub-mic" />
 		<ctl name="ADC1 Volume" value="12" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="96" />
 		<ctl name="ADC3 Volume" value="12" />
-		<ctl name="DEC4 Volume" value="84" />
+		<ctl name="DEC4 Volume" value="96" />
 		<ctl name="ES705-AP Tx Channels" value="One" />
 		<ctl name="Internal Route Config" value="4" />
 	</path>
@@ -793,9 +793,9 @@
 		<ctl name="ES705 TX1 Enable" value="1" />
 		<path name="sub-main-mic" />
 		<ctl name="ADC3 Volume" value="12" />
-		<ctl name="DEC4 Volume" value="84" />
+		<ctl name="DEC4 Volume" value="96" />
 		<ctl name="ADC1 Volume" value="12" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="96" />
 		<ctl name="ES705-AP Tx Channels" value="One" />
 		<ctl name="Internal Route Config" value="1" />
 	</path>
@@ -875,9 +875,9 @@
 		<ctl name="ES705 TX1 Enable" value="1" />
 		<path name="main-sub-mic" />
 		<ctl name="ADC1 Volume" value="12" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="96" />
 		<ctl name="ADC3 Volume" value="12" />
-		<ctl name="DEC4 Volume" value="84" />
+		<ctl name="DEC4 Volume" value="96" />
 		<ctl name="ES705-AP Tx Channels" value="One" />
 		<ctl name="Internal Route Config" value="4" />
 	</path>
@@ -885,16 +885,16 @@
 	<path name="video-call-sub-mic">
 		<path name="sub-main-mic" />
 		<ctl name="ADC3 Volume" value="12" />
-		<ctl name="DEC4 Volume" value="84" />
+		<ctl name="DEC4 Volume" value="96" />
 		<ctl name="ADC1 Volume" value="12" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="96" />
 	</path>
 
 	<path name="video-call-headphone-mic">
 		<ctl name="ES705 TX1 Enable" value="1" />
 		<path name="main-mic" />
 		<ctl name="ADC1 Volume" value="12" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="96" />
 		<ctl name="ES705-AP Tx Channels" value="One" />
 		<ctl name="Internal Route Config" value="0" />
 	</path>
@@ -912,9 +912,9 @@
 		<ctl name="ES705 TX1 Enable" value="1" />
 		<path name="main-sub-mic" />
 		<ctl name="ADC1 Volume" value="12" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="96" />
 		<ctl name="ADC3 Volume" value="12" />
-		<ctl name="DEC4 Volume" value="84" />
+		<ctl name="DEC4 Volume" value="96" />
 		<ctl name="ES705-AP Tx Channels" value="One" />
 		<ctl name="Internal Route Config" value="2" />
 	</path>
@@ -922,9 +922,9 @@
 	<path name="video-call-NS-mic-speaker">
 		<path name="sub-main-mic" />
 		<ctl name="ADC3 Volume" value="12" />
-		<ctl name="DEC4 Volume" value="84" />
+		<ctl name="DEC4 Volume" value="96" />
 		<ctl name="ADC1 Volume" value="12" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="96" />
 	</path>
 	<!-- end of Video call Scenario  -->
 
@@ -990,9 +990,9 @@
 		<ctl name="ES705 TX1 Enable" value="1" />
 		<path name="main-sub-mic" />
 		<ctl name="ADC1 Volume" value="14" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="96" />
 		<ctl name="ADC3 Volume" value="14" />
-		<ctl name="DEC4 Volume" value="84" />
+		<ctl name="DEC4 Volume" value="96" />
 		<ctl name="ES705-AP Tx Channels" value="One" />
 		<ctl name="Internal Route Config" value="4" />
 	</path>
@@ -1001,9 +1001,9 @@
 		<ctl name="ES705 TX1 Enable" value="1" />
 		<path name="sub-main-mic" />
 		<ctl name="ADC3 Volume" value="16" />
-		<ctl name="DEC4 Volume" value="84" />
+		<ctl name="DEC4 Volume" value="96" />
 		<ctl name="ADC1 Volume" value="16" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="96" />
 		<ctl name="ES705-AP Tx Channels" value="One" />
 		<ctl name="Internal Route Config" value="3" />
 	</path>
@@ -1011,7 +1011,7 @@
 	<path name="VoLTE-voice-headphone-mic">
 		<path name="main-mic" />
 		<ctl name="ADC1 Volume" value="12" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="96" />
 	</path>
 
 	<path name="VoLTE-voice-headset-mic">
@@ -1028,9 +1028,9 @@
 		<ctl name="ES705 TX1 Enable" value="1" />
 		<path name="main-sub-mic" />
 		<ctl name="ADC1 Volume" value="14" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="96" />
 		<ctl name="ADC3 Volume" value="14" />
-		<ctl name="DEC4 Volume" value="84" />
+		<ctl name="DEC4 Volume" value="96" />
 		<ctl name="ES705-AP Tx Channels" value="One" />
 		<ctl name="Internal Route Config" value="2" />
 	</path>
@@ -1039,9 +1039,9 @@
 		<ctl name="ES705 TX1 Enable" value="1" />
 		<path name="sub-main-mic" />
 		<ctl name="ADC3 Volume" value="16" />
-		<ctl name="DEC4 Volume" value="84" />
+		<ctl name="DEC4 Volume" value="96" />
 		<ctl name="ADC1 Volume" value="16" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="96" />
 		<ctl name="ES705-AP Tx Channels" value="One" />
 		<ctl name="Internal Route Config" value="1" />
 	</path>
@@ -1100,9 +1100,9 @@
 		<ctl name="ES705 TX1 Enable" value="1" />
 		<path name="main-sub-mic" />
 		<ctl name="ADC1 Volume" value="12" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="96" />
 		<ctl name="ADC3 Volume" value="12" />
-		<ctl name="DEC4 Volume" value="84" />
+		<ctl name="DEC4 Volume" value="96" />
 		<ctl name="ES705-AP Tx Channels" value="One" />
 		<ctl name="Internal Route Config" value="4" />
 	</path>
@@ -1110,16 +1110,16 @@
 	<path name="VoLTE-video-sub-mic">
 		<path name="sub-main-mic" />
 		<ctl name="ADC3 Volume" value="12" />
-		<ctl name="DEC4 Volume" value="84" />
+		<ctl name="DEC4 Volume" value="96" />
 		<ctl name="ADC1 Volume" value="12" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="96" />
 	</path>
 
 	<path name="VoLTE-video-headphone-mic">
 		<ctl name="ES705 TX1 Enable" value="1" />
 		<path name="main-mic" />
 		<ctl name="ADC1 Volume" value="17" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="96" />
 		<ctl name="ES705-AP Tx Channels" value="One" />
 		<ctl name="Internal Route Config" value="0" />
 	</path>
@@ -1137,9 +1137,9 @@
 		<ctl name="ES705 TX1 Enable" value="1" />
 		<path name="main-sub-mic" />
 		<ctl name="ADC1 Volume" value="12" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="96" />
 		<ctl name="ADC3 Volume" value="12" />
-		<ctl name="DEC4 Volume" value="84" />
+		<ctl name="DEC4 Volume" value="96" />
 		<ctl name="ES705-AP Tx Channels" value="One" />
 		<ctl name="Internal Route Config" value="2" />
 	</path>
@@ -1147,9 +1147,9 @@
 	<path name="VoLTE-video-NS-mic-speaker">
 		<path name="sub-main-mic" />
 		<ctl name="ADC3 Volume" value="12" />
-		<ctl name="DEC4 Volume" value="84" />
+		<ctl name="DEC4 Volume" value="96" />
 		<ctl name="ADC1 Volume" value="12" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="96" />
 	</path>
 	<!-- end of VoLTE Video call Scenario  -->
 
