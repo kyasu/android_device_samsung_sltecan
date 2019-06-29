@@ -140,6 +140,12 @@ on post-fs-data
     chmod 0666 /data/.wifiver.info
     restorecon /data/.wifiver.info
 
+    # for WIFI Cert
+    chmod 0664 /data/.bustxglom.info
+    chmod 0664 /data/.roamoff.info
+    chmod 0664 /data/.frameburst.info
+    chmod 0664 /data/.txbf.info
+
     # for WIFI Front End Module
     chown system system /data/.cid.info
     chmod 0664 /data/.cid.info
@@ -281,11 +287,6 @@ on post-fs-data
     chmod 0660 /dev/ice4_dev
 
     ####
-
-    # ASoC ES705 (no sleep)
-    chown system system /sys/devices/fe12f000.slim/es705-codec-gen0/sleep_delay
-    chmod 0660 /sys/devices/fe12f000.slim/es705-codec-gen0/sleep_delay
-    write /sys/devices/fe12f000.slim/es705-codec-gen0/sleep_delay -1
 
     # drm and related files in EFS
     mkdir /efs/drm 0774 drm system
