@@ -1,3 +1,6 @@
+# executeables
+/(vendor|system/vendor)/bin/hw/android\.hardware\.sensors@1\.0-service.sltecan        u:object_r:hal_sensors_default_exec:s0
+
 # data files
 /data/validity(/.*)?                                    u:object_r:vfsspi_data_file:s0
 
@@ -14,3 +17,6 @@
 
 # sysfs - fingerprint
 /sys/devices/virtual/fingerprint(/.*)?                  u:object_r:sysfs_fingerprint:s0
+
+# sysfs - iio
+/sys/devices/[a-f0-9]+\.i2c/i2c-3/3-[a-f0-9]+/iio:device[0-9](/.*)? u:object_r:sysfs_iio:s0

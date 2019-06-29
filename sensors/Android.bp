@@ -5,6 +5,9 @@ cc_library_static {
         "multihal.cpp",
         "SensorEventQueue.cpp",
     ],
+    header_libs: [
+        "libhardware_headers",
+    ],
     shared_libs: [
         "liblog",
         "libcutils",
@@ -16,4 +19,53 @@ cc_library_static {
         "-Wall",
         "-Werror",
     ],
+}
+
+cc_library_shared {
+    name: "android.hardware.sensors@1.0-impl.sltecan",
+    defaults: ["hidl_defaults"],
+    proprietary: true,
+    relative_install_path: "hw",
+    srcs: ["Sensors.cpp"],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libhardware",
+        "libbase",
+        "libutils",
+        "libhidlbase",
+        "libhidltransport",
+        "android.hardware.sensors@1.0",
+    ],
+    static_libs: [
+        "android.hardware.sensors@1.0-convert",
+        "multihal-sltecan",
+    ],
+    local_include_dirs: ["include/sensors"],
+}
+
+cc_binary {
+    name: "android.hardware.sensors@1.0-service.sltecan",
+    defaults: ["hidl_defaults"],
+    relative_install_path: "hw",
+    vendor: true,
+    init_rc: ["android.hardware.sensors@1.0-service.sltecan.rc"],
+    srcs: ["service.cpp"],
+
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libdl",
+        "libbase",
+        "libutils",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "android.hardware.sensors@1.0",
+    ],
+    arch: {
+        arm: {
+            cflags: ["-DARCH_ARM_32"],
+        },
+    },
 }
