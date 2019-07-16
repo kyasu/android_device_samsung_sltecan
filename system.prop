@@ -17,16 +17,12 @@ ro.config.media_vol_steps=25
 # Audio (Media)
 audio.deep_buffer.media=true
 audio.offload.disable=true
-audio.offload.buffer.size.kb=32
 audio.offload.pcm.16bit.enable=true
 audio.offload.pcm.24bit.enable=true
 audio.offload.video=true
-media.aac_51_output_enabled=true
-mm.enable.smoothstreaming=true
-tunnel.audio.encode=true
-vendor.audio.av.streaming.offload.enable=true
-vendor.audio.offload.multiple.enabled=true
+vendor.audio.offload.buffer.size.kb=32
 vendor.audio.offload.gapless.enabled=true
+vendor.audio.offload.multiple.enabled=false
 
 # Camera
 camera2.portability.force_api=1
