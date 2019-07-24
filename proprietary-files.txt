@@ -213,9 +213,6 @@ vendor/lib/libOmxQcelp13Dec.so
 vendor/lib/libOmxWmaDec.so
 vendor/lib/libSHIMDivxDrm.so
 
-# NFC
-vendor/firmware/libpn547_fw.so
-
 # Perf
 vendor/lib/libqti-perfd-client.so
 
