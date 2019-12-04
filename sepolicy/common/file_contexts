@@ -1,5 +1,5 @@
 # executeables
-/(vendor|system/vendor)/bin/hw/android\.hardware\.sensors@1\.0-service.sltecan        u:object_r:hal_sensors_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.sensors@1\.0-service\.sltecan        u:object_r:hal_sensors_default_exec:s0
 
 # data files
 /data/.psm.info                                         u:object_r:wifi_data_file:s0
