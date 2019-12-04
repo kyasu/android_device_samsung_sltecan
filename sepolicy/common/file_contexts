@@ -12,6 +12,7 @@
 
 # sysfs
 /sys/devices(/.*)?/input/input[1-2]/enabled             u:object_r:sysfs_hal_pwr:s0
+/sys/devices/virtual/sec/sec_touchkey/keypad_enable     u:object_r:sysfs_sec_touchkey:s0
 
 # sysfs - audio
 /sys/devices/[a-f0-9]+\.slim/es705-codec-gen0(/.*)?     u:object_r:sysfs_audio:s0
