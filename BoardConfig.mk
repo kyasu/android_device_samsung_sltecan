@@ -59,9 +59,6 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 BOARD_CUSTOM_BT_CONFIG := $(DEVICE_PATH)/bluetooth/vnd_sltecan.txt
 BOARD_HAVE_BLUETOOTH_BCM := true
 
-# Extended Filesystem Support
-TARGET_EXFAT_DRIVER := sdfat
-
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/msm8974-common/manifest.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
