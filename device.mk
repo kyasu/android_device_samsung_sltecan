@@ -73,11 +73,6 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service \
     fingerprint.msm8974
 
-# IPv6 tethering
-PRODUCT_PACKAGES += \
-    ebtables \
-    ethertypes
-
 # Keylayouts
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
@@ -135,7 +130,6 @@ PRODUCT_PACKAGES += \
 
 # Wifi
 PRODUCT_PACKAGES += \
-    libnetcmdiface \
     macloader
 
 PRODUCT_COPY_FILES += \
