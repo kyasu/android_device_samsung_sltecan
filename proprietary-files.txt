@@ -218,11 +218,6 @@ vendor/lib/libSHIMDivxDrm.so
 # Perf
 vendor/lib/libqti-perfd-client.so
 
-# Postprocessing
-vendor/lib/libdisp-aba.so
--vendor/lib/libmm-abl.so
-vendor/lib/libmm-abl-oem.so
-
 # Qualcomm
 vendor/lib/libxml.so
 
